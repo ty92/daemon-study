@@ -74,6 +74,6 @@ main()
 {
 	daemonize("ls");
 	printf("daemonize\n");   //here it is a daemon program, not has tty, not output
-	sleep();  //need main function into sleep,otherwise not see a daemon
+	sleep(60);  //need main function into sleep,otherwise not see a daemon
 }
 */
